@@ -1,0 +1,26 @@
+{
+  "name": "nodejswithexpress",
+  "version": "1.0.0",
+  "description": "Learning ExpressJs with NodeJs",
+  "main": "app.js",
+  "scripts": {
+    "start": "cross-env NODE_ENV=development nodemon server.js",
+    "start_prod": "cross-env NODE_ENV=production nodemon server.js"
+  },
+  "author": "James Bisiriyu",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cross-env": "^7.0.3",
+    "dotenv": "^16.4.5",
+    "env": "^0.0.2",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "7.0",
+    "morgan": "^1.10.0",
+    "validator": "^13.12.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.3"
+  }
+}
